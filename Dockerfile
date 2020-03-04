@@ -52,5 +52,5 @@ RUN python setup.py build_ext --inplace
  
 RUN pip install snappy
 RUN pip install imagecodecs==2018.12.16
-RUN pip install keras==2.2.2 pydot simpleitk photutils tifffile libtiff
+RUN pip install keras==2.2.2 scikit-image pydot simpleitk photutils tifffile libtiff
 RUN git submodule update --init --recursive
